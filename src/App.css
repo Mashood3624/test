@@ -1,0 +1,106 @@
+/* .element.style {
+    zoom: 100% !important
+} */
+body {
+    /* background: linear-gradient(to right, #000 0%, #1c3031d1 100%)!important; */
+    background-color:#1c3031d1!important;
+}
+.layout-sidebar-light {
+    background: #f3f4f9 !important;
+    background: linear-gradient(to right, #1c3031d1 0%, #000 100%)!important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 )!important;
+}
+.layout-sidebar-light .layout-menu li a {
+    color: #fff!important;
+}
+.layout-sidebar-light .layout-menu li.active-menuitem > a {
+    background-color: #380d0d10!important;
+    color: #0388e5!important;
+}
+.layout-sidebar-light .layout-menu > li ul {
+    background-color: #116fbf;
+}
+.layout-topbar {
+    position: fixed;
+    height: 50px;
+    padding: .7em 1.5em 0em 1.5em;
+    color: #ffffff;
+    z-index: 999;
+    right: 0;
+    background: #0388E5;
+    background: linear-gradient(to right, #1c3031d1 0%, #000 100%)!important;
+  
+}
+.p-button {
+    
+    background-color: red!important;
+    border: 1px solid red!important;
+    
+}
+.MuiOutlinedInput-input {
+    padding-left: 14px !important;
+    padding-right: 14px !important;
+    padding-bottom: 10px !important;
+    padding-top: 10px !important;
+  }
+  .MuiAutocomplete-popper {
+    width: 25% !important;
+  }
+  .Mui-checked {
+    color: rgba(0, 0, 0, 0.54) !important;
+  }
+  .MuiInputLabel-outlined {
+    position: relative !important;
+    top:6px !important;
+    font-size: 14px !important;
+  }
+  .MuiInputLabel-outlined.MuiInputLabel-shrink {
+    top: 16px !important;
+  }
+  
+  .MuiAutocomplete-hasPopupIcon.MuiAutocomplete-hasClearIcon
+    .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] {
+    padding: 0px !important;
+  }
+  .table-button button {
+    position: absolute;
+    right: 8px;
+    top: 0px;
+    background-color: #efefef;
+    text-transform: capitalize;
+    color: #000;
+    font-size: 14px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+    outline: none !important;
+    z-index: 500;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px #cecece;
+  }
+  .table-button button:hover {
+    background-color: #dbdddd;
+    box-shadow: 0px 0px 3px #cecdcd;
+  }
+  /* select input icon */
+  .MuiSelect-icon {
+    position: relative !important;
+    color: #047af8;
+  }
+  /* date button input field */
+  .MuiInputAdornment-root button {
+    padding: 4px;
+    color: #047af8;
+    right: -10px;
+  }
+  .MuiInputAdornment-root button .MuiSvgIcon-root {
+    font-size: 24px !important;
+  }
+  .material-icons {
+    font-size: 16px !important;
+  }
+  .MuiSvgIcon-root {
+    font-size: 16px !important;
+  }
