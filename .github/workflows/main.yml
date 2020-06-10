@@ -30,7 +30,8 @@ jobs:
  
     - name: install yarn
       run: npm rebuild node-sass
-      
+    - name: istall yarn
+      run: npm run build 
       
     # Install Surge
     - name: Install Surge
