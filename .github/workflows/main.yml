@@ -27,10 +27,14 @@ jobs:
       with:
         node-version: 12
       
-        
-    - name: Build React App
-      run: npm run build
-      
+ 
+    - name: npm
+      run: npm rebuild node-sass
+    - uses: borales/actions-yarn@v2.0.0
+      with:
+          cmd: install # will run `yarn install` command
+    - name: install yarn
+      run: yarn build
       
     # Install Surge
     - name: Install Surge
